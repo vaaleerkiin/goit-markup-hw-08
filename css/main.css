@@ -735,6 +735,7 @@ img {
 
 .form-input:focus,
 .form-textarea:focus {
+  outline: none;
   border-color: var(--color-accent);
 }
 .form-warp:focus-within svg {
