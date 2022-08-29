@@ -1,0 +1,20 @@
+@import "./base/reset";
+@import "./utils/variable";
+@import "./utils/visually-hidden";
+
+@import "./base/cotainer.scss";
+@import "./components/logo";
+@import "./components/button";
+@import "./components/soc-list";
+@import "./base/section-title";
+
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/benefits";
+@import "./layout/work";
+@import "./layout/team";
+@import "./layout/client";
+@import "./layout/footer";
+@import "./components/modal";
+@import "./layout/portfolio";
+@import "./layout/cards";

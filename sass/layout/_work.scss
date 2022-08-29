@@ -1,0 +1,33 @@
+.work__section {
+  padding-top: 0;
+}
+
+.work__list {
+  display: flex;
+  gap: 30px;
+}
+
+.work__item {
+  flex-basis: calc((100% - 60px) / 3);
+  position: relative;
+}
+
+.work__title {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  bottom: 0;
+  height: 70px;
+  width: 100%;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--text-light);
+
+  background: rgba(47, 48, 58, 0.8);
+}
