@@ -155,10 +155,10 @@
 .check__icon {
   width: 16px;
   height: 15px;
-  background-image: url(/images/check.svg);
+  background-image: url(../../images/check.svg);
 }
 .check:checked + .check__icon {
-  background-image: url(/images/checked.svg);
+  background-image: url(../../images/checked.svg);
 }
 .form__warp--checkbox {
   display: flex;
