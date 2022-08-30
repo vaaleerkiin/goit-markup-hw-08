@@ -28,12 +28,6 @@
   &:active {
     background-color: var(--color-accent);
   }
-
-  &:hover .soc__icon--gray,
-  &:focus .soc__icon--gray,
-  &:active .soc__icon--gray {
-    fill: #ffffff;
-  }
 }
 .footer__soc {
   display: flex;
@@ -49,4 +43,10 @@
 
 .soc__link--gray {
   background-color: var(--footer-soc-icon-background);
+
+  &:hover .soc__icon--gray,
+  &:focus .soc__icon--gray,
+  &:active .soc__icon--gray {
+    fill: #ffffff;
+  }
 }

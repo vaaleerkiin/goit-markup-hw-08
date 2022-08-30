@@ -3,6 +3,24 @@
   padding-bottom: 94px;
 }
 
+.section__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secendory-color-text);
+  margin-bottom: 50px;
+}
+
+.section--no-padding-top {
+  padding-top: 0;
+}
+
+.section--other-background {
+  background-color: var(--secendory-background);
+}
+
 .container {
   max-width: 1200px;
   margin-left: auto;

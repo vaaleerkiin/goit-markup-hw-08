@@ -1,4 +1,4 @@
-.benefits__list {
+.benefits {
   display: flex;
   gap: 30px;
   align-items: center;
@@ -8,7 +8,7 @@
   flex-basis: calc((100% - 90px) / 4);
 }
 
-.benefits__icon {
+.benefits__icon-box {
   background: var(--secendory-background);
   border-radius: 4px;
   min-height: 120px;
