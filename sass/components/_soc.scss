@@ -1,4 +1,4 @@
-.soc__list {
+.soc {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -8,11 +8,6 @@
 .soc__item {
   width: 44px;
   height: 44px;
-}
-
-.soc__icon--gray {
-  fill: var(--icon-color);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .soc__link {
@@ -29,6 +24,16 @@
     background-color: var(--color-accent);
   }
 }
+
+.soc__icon--gray {
+  fill: var(--icon-color);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  .soc__link:hover & {
+    fill: #ffffff;
+  }
+}
+
 .footer__soc {
   display: flex;
   flex-direction: column;

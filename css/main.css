@@ -128,7 +128,7 @@ img {
   background-color: var(--secendory-btn-accent);
 }
 
-.soc__list {
+.soc {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -144,12 +144,6 @@ img {
 .soc__item {
   width: 44px;
   height: 44px;
-}
-
-.soc__icon--gray {
-  fill: var(--icon-color);
-  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .soc__link {
@@ -170,6 +164,15 @@ img {
 }
 .soc__link:hover, .soc__link:focus, .soc__link:active {
   background-color: var(--color-accent);
+}
+
+.soc__icon--gray {
+  fill: var(--icon-color);
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.soc__link:hover .soc__icon--gray {
+  fill: #ffffff;
 }
 
 .footer__soc {
@@ -650,10 +653,10 @@ img {
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
-  -webkit-transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 1500ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 1500ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), transform 1500ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), transform 1500ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 1500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal__exit {
@@ -690,8 +693,8 @@ img {
 }
 
 .backdrop.is-hidden .modal {
-  -webkit-transform: scalex(0.8) scaleY(0.4);
-          transform: scalex(0.8) scaleY(0.4);
+  -webkit-transform: scalex(0.8) scaleY(0.4) rotate(5turn);
+          transform: scalex(0.8) scaleY(0.4) rotate(5turn);
 }
 
 .form__title {
