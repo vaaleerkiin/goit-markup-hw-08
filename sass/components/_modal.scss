@@ -67,6 +67,7 @@ body.modal-open {
 }
 .backdrop.is-hidden .modal {
   transform: scalex(0.8) scaleY(0.4);
+  opacity: 0;
 }
 
 .form__title {
