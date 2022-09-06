@@ -30,7 +30,7 @@
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    transform 1500ms cubic-bezier(0.4, 0, 0.2, 1);
+    transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 body.modal-open {
@@ -66,7 +66,7 @@ body.modal-open {
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .backdrop.is-hidden .modal {
-  transform: scalex(0.8) scaleY(0.4) rotate(5turn);
+  transform: scalex(0.8) scaleY(0.4);
 }
 
 .form__title {
