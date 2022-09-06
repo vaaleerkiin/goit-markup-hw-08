@@ -3,6 +3,12 @@
   gap: 30px;
 }
 
+.section--no-padding-top {
+  @media screen and (max-width: 1200px) {
+    display: none;
+  }
+}
+
 .work__item {
   flex-basis: calc((100% - 60px) / 3);
   position: relative;

@@ -60,6 +60,70 @@
             </a>
           </li>
         </ul>
+        <button class="menu-btn-open js-open-menu" type="button">
+          <svg width="40" height="40">
+            <use href="./images/icon.svg#icon-open-menu"></use>
+          </svg>
+        </button>
+        <div class="menu js-menu-container">
+          <button class="menu-btn-close js-close-menu" type="button">
+            <svg width="40" height="40">
+              <use href="./images/icon.svg#icon-close-menu"></use>
+            </svg>
+          </button>
+          <div class="menu__cotainer">
+            <nav class="menu-nav">
+              <ul class="menu__list list">
+                <li class="naigation__item">
+                  <a href="./index.html" class="menu__link link">Студия</a>
+                </li>
+                <li class="menu__item">
+                  <a
+                    href="./portfolio.html"
+                    class="menu__link menu__link--current link"
+                    >Портфолио</a
+                  >
+                </li>
+                <li class="menu__item">
+                  <a href="#contact" class="menu__link link">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+            <div>
+              <ul class="menu-contact list">
+                <li class="menu-contact__item">
+                  <a
+                    class="menu-contact__link link"
+                    href="mailto:info@devstudio.com"
+                    >info@devstudio.com
+                  </a>
+                </li>
+                <li class="menu-contact__item">
+                  <a class="menu-contact__link link" href="tel:+380961111111"
+                    >+38 096 111 11 11
+                  </a>
+                </li>
+              </ul>
+              <ul class="menu-soc__list list">
+                <li class="menu-soc__item">
+                  <a class="menu-soc__link link" href="">Instagram </a>
+                  <span class="menu-soc__icon"></span>
+                </li>
+                <li class="menu-soc__item">
+                  <a class="menu-soc__link link" href="">Twitter </a>
+                  <span class="menu-soc__icon"></span>
+                </li>
+                <li class="menu-soc__item">
+                  <a class="menu-soc__link link" href="">Facebook </a>
+                  <span class="menu-soc__icon"></span>
+                </li>
+                <li class="menu-soc__item">
+                  <a class="menu-soc__link link" href="">LinkedIn</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </header>
     <main>
@@ -295,7 +359,7 @@
       </section>
     </main>
     <!-- подвал -->
-    <footer class="footer" id="contact">
+    <!-- <footer class="footer" id="contact">
       <div class="container footer__container">
         <div class="footer__info">
           <a href="./index.html" class="logo link"
@@ -394,6 +458,7 @@
           </form>
         </div>
       </div>
-    </footer>
+    </footer> -->
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
