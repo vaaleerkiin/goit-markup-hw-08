@@ -16,10 +16,50 @@
 .footer__container {
   display: flex;
   align-items: baseline;
+  gap: 60px;
+  @media screen and (max-width: 767px) {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  @media screen and (min-width: 768px) {
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
+
+.footer__info {
+  @media screen and (max-width: 1199px) {
+    text-align: center;
+    flex-wrap: nowrap;
+  }
 }
 
 .footer__adress {
   margin-top: 20px;
+}
+
+.footer__adress,
+.footer__soc {
+  @media screen and (max-width: 1199px) {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.footer__soc {
+  @media screen and (min-width: 768px) {
+    margin-left: auto;
+  }
+}
+
+.footer__forms {
+  @media screen and (max-width: 1199px) {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .footer__map,
@@ -53,7 +93,12 @@
 }
 
 .footer__form {
-  margin-left: auto;
+  @media screen and (max-width: 1199px) {
+    width: 100%;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-left: auto;
+  }
 }
 
 .footer__title {
@@ -62,12 +107,29 @@
 .footer__submit {
   display: flex;
 
+  @media screen and (max-width: 479px) {
+    width: 100%;
+  }
+  @media screen and (max-width: 1199px) {
+    flex-direction: column;
+    align-items: center;
+  }
   gap: 12px;
   font-weight: 400;
 }
 
 .footer__input {
-  width: 358px;
+  @media screen and (max-width: 479px) {
+    width: 100%;
+  }
+
+  @media screen and (min-width: 480px) {
+    width: 450px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 358px;
+  }
   height: 100%;
 
   padding: 15px 16px;
@@ -89,4 +151,5 @@
   gap: 10px;
   height: 48px;
   padding: 10px 27px;
+  max-width: 200px;
 }
