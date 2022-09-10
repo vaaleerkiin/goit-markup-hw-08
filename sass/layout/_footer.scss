@@ -22,8 +22,8 @@
     align-items: center;
     flex-direction: column;
   }
-  @media screen and (min-width: 768px) {
-    align-items: center;
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    justify-content: space-around;
     flex-wrap: wrap;
   }
 }
@@ -44,12 +44,6 @@
   @media screen and (max-width: 1199px) {
     display: flex;
     align-items: center;
-  }
-}
-
-.footer__soc {
-  @media screen and (min-width: 768px) {
-    margin-left: auto;
   }
 }
 
