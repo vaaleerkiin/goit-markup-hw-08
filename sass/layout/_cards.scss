@@ -22,6 +22,15 @@
   }
 }
 
+.card__item:nth-child(-n + 2) {
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    max-height: 440px;
+    & .card__meta {
+      height: 146px;
+    }
+  }
+}
+
 .card__info {
   font-size: 18px;
   line-height: 1.56;
