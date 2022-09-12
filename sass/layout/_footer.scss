@@ -50,7 +50,9 @@
 }
 
 .footer__soc {
-  margin-left: 70px;
+  @media screen and (min-width: 1200px) {
+    margin-left: 70px;
+  }
 }
 
 .footer__forms {

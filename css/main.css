@@ -938,8 +938,10 @@ img {
   }
 }
 
-.footer__soc {
-  margin-left: 70px;
+@media screen and (min-width: 1200px) {
+  .footer__soc {
+    margin-left: 70px;
+  }
 }
 
 @media screen and (max-width: 1199px) {
