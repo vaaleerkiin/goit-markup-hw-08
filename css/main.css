@@ -1330,9 +1330,11 @@ body.modal-open {
   color: var(--main-color-text);
   position: relative;
 }
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 479px) {
   .check__label {
-    font-size: 10px;
+    display: block;
+    width: 277px;
+    font-size: 12px;
   }
 }
 @media screen and (min-width: 480px) {
