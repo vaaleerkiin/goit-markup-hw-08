@@ -33,7 +33,7 @@
             <li class="navigation__item">
               <a
                 href="./portfolio.html"
-                class="navigation__link navigation__link--current link"
+                class="navigation__link link navigation__link--current"
                 >Портфолио</a
               >
             </li>
@@ -60,13 +60,19 @@
             </a>
           </li>
         </ul>
-        <button class="menu-btn-open js-open-menu" type="button">
+        <button
+          data-menu-open
+          class="menu-btn-open"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
           <svg width="40" height="40">
             <use href="./images/icon.svg#icon-open-menu"></use>
           </svg>
         </button>
-        <div class="menu js-menu-container">
-          <button class="menu-btn-close js-close-menu" type="button">
+
+        <div data-menu class="menu is-hidden-menu" id="mobile-menu">
+          <button data-menu-close class="menu-btn-close" type="button">
             <svg width="40" height="40">
               <use href="./images/icon.svg#icon-close-menu"></use>
             </svg>
@@ -80,7 +86,7 @@
                 <li class="menu__item">
                   <a
                     href="./portfolio.html"
-                    class="menu__link menu__link--current link"
+                    class="menu__link link menu__link--current"
                     >Портфолио</a
                   >
                 </li>
