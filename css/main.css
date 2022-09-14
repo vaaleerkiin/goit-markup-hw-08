@@ -1153,7 +1153,7 @@ body.menu-open {
 }
 
 .modal__exit {
-  position: fixed;
+  position: absolute;
   top: 8px;
   right: 8px;
   display: -webkit-box;
